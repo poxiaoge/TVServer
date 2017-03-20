@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.poxiaoge.tvserver.MainActivity">
+
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:id="@+id/list_app"-->
+        <!--android:layout_weight="10">-->
+    <!--</ListView>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="#ff0000"/>-->
+
+    <!--<ListView-->
+        <!--android:id="@+id/list_media"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="9">-->
+    <!--</ListView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/internal_path"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="2"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/external_path"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="2"/>-->
+    <Button
+        android:id="@+id/btn_push2pc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接PC"/>
+
+    <TextView
+        android:id="@+id/text_debug_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+
+
+</LinearLayout>
